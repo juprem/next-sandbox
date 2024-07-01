@@ -1,4 +1,4 @@
-import { Square } from '@/app/component/Square';
+import { Square } from '@/component/Square';
 
 export function Page() {
     return <Square>Settings</Square>;

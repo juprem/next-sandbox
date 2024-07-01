@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import styles from './Sidebar.module.scss';
 import Link from 'next/link';
@@ -12,8 +12,8 @@ interface MenuLinks {
 
 const linkMenu: MenuLinks[] = [
     { pathname: '/', name: 'Home' },
-    { pathname: '/dashboard', name: 'Dashboard' },
-    { pathname: '/dashboard/settings', name: 'Settings' },
+    { pathname: '/todos', name: 'Todos' },
+    { pathname: '/todos/settings', name: 'Settings' },
 ];
 
 export function SideBar({}: SideBarProps) {
